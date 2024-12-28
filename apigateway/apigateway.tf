@@ -637,7 +637,7 @@ resource "aws_api_gateway_stage" "order_system" {
 }
 
 variable "lb_pedidopgto_url" {
-  description = "URL do LoadBalancer do serviço de Pedido e Pagamento"
+  description = "URL do LoadBalancer do serviço de Pedido e Pagamentos"
   type        = string
 }
 
